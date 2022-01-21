@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "nodemon webserver.js",
+    "bot": "nodemon chatbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fence300/nodejs-arduino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fence300/nodejs-arduino/issues"
+  },
+  "homepage": "https://github.com/fence300/nodejs-arduino#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "serialport": "^9.2.8",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
